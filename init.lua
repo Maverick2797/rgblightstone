@@ -70,7 +70,7 @@ minetest.register_node("rgblightstone:rgblightstone", {
 			if fields.addry then meta:set_string("addry",fields.addry) end
 		end
 	end,
-	light_source = 0,
+	light_source = minetest.LIGHT_MAX - 2,
 	digiline = {
 		wire = {
 			rules = {
