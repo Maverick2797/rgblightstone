@@ -38,6 +38,7 @@ function rgblightstone.autofill(pos, player)
 end
 
 minetest.register_node("rgblightstone:rgblightstone", {
+	drop = "rgblightstone:rgblightstone",
 	tiles = {"rgblightstone_white.png"},
 	palette = "rgblightstone_palette.png",
 	groups = {cracky=2},
